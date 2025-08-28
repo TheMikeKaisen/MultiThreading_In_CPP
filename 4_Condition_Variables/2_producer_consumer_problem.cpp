@@ -4,6 +4,8 @@
 #include <queue>
 #include <condition_variable>
 
+using namespace std;
+
 template<typename T>
 class ThreadsafeQueue {
 private:
